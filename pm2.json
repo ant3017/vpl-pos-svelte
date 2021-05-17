@@ -1,0 +1,16 @@
+//processes.json:
+{
+    "apps": [{
+        "name": "vpl-sql-api",
+        "watch": false,
+        "script": "./index.js",
+        "ignore_watch": ["node_modules","log"],
+        "watch_options": {
+            "followSymlinks": false
+        },
+          "env": {
+          "NODE_ENV": "production",
+        },
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+    }]
+}
